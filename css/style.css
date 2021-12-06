@@ -1,0 +1,98 @@
+
+
+.body{
+	background-image: url('../img/bg.jpg'); 
+	background-size: auto;
+	background-repeat: repeat-x; 
+	font-family: Helvetica, Arial, sans-serif;
+	
+
+	
+}
+.sartlar{
+	font-size: 13px;
+}
+header{
+	font-size: 14px!important;
+   background-color: #3b5998!important;
+}
+strong{
+	word-break: break-all;
+	text-align: justify;
+}
+.navbar{
+   background-color: #3b5998!important;
+   color: #fff;
+}
+
+.giris{
+	
+	color: #fff;
+	background-color: #3b5998;
+}
+select{
+
+	width: 95%;
+	height: 2.5em;
+}
+.neden{
+	font-size: 14px;
+	text-align: justify;
+	word-break: break-all;
+}
+@media(max-width: 767px){
+	.neden{
+		margin-top: 5px;
+	}
+	.hesap,.ucret{
+		font-size: 11px;
+	}
+    strong{
+    	font-size: 11px;
+    }
+
+	h1,p{
+		font-size: 18px;
+		word-break: break-all;
+	}
+	select{
+		margin-top: 5px;
+		font-size: 13px;
+	}
+	.navbar{
+		font-size: 11px;
+	}
+	.navbar .giris{
+		height: 2.5em;
+		font-size: 4px;
+	}
+	.sartlar p{
+		font-size: 9px!important;
+	}
+	.cinsiyet{
+		margin-top: 5px;
+		font-size: 9px;
+	}
+	.kaydol{
+		width: 25%!important;
+	}
+}
+@media(max-width: 990px){
+	
+	select{
+		font-size: 11px;
+
+	}
+	.neden{
+		word-break: break-all;
+		font-size: 11px;
+	}
+		.navbar{
+		font-size: 11px;
+	}
+	.navbar .giris{
+		height: 2.5em;
+		font-size: 0.8em;
+	}
+}
+
